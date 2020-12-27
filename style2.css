@@ -1,0 +1,28 @@
+@import "./reset.css";
+
+.wrapper{
+    background:#999;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    background:peru;
+    color:white;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.box:nth-child(odd){
+    background-color: red;
+}

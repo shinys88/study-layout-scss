@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+.wrapper{
+    background:#999;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size:50px;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    background:peru;
+    color:white;
+}
+
+
+.box:nth-child(1){
+    order: 2;
+}
+
+.box:nth-child(2){
+    align-self: center;
+    order: 1;
+}
+
+.box:nth-child(3){
+    align-self: flex-end;
+    order: 3
+}

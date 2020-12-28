@@ -19,25 +19,37 @@ flex, grid, scss
 
 ## Grid:
 
-- [ ] grid-template-columns
-- [ ] grid-template-rows
-- [ ] grid-template-areas
-- [ ] grid-template
-- [ ] grid-column-gap
-- [ ] grid-row-gap
-- [ ] justify-items
-- [ ] align-items
-- [ ] justify-content
-- [ ] align-content
+- grid1.html
+- [x] grid-template-columns
+- [x] grid-template-rows
+- [x] grid-column-gap
+- [x] grid-row-gap
+- [x] gap
+- grid2.html
+- [x] grid-template-areas
+- grid3.html
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
+- grid4.html
+- [x] grid line
+- grid5.html
+- [x] grid 1fr
+- [x] grid-template
+- grid6.html
+- [x] justify-items
+- [x] align-items
+- [x] place-items
+- [x] justify-content
+- [x] align-content
+- [x] place-content
+- grid7.html
 - [ ] grid-auto-columns
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
 - [ ] justify-self
 - [ ] align-self
 

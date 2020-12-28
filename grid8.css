@@ -1,0 +1,40 @@
+@import "./reset.css";
+
+.grid{
+    display:grid;
+    gap:5px;
+    grid-template-rows: repeat(1, minmax(100px,1fr));
+    margin-bottom:30px;
+}
+
+.grid1{
+     grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+}
+
+.grid2{
+     grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+
+.grid3{
+    grid-template-columns: max-content min-content;
+}
+
+.grid4{
+    grid-template-columns: repeat(5, minmax(max-content, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(20px, max-content)); */
+}
+
+
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item:nth-child(odd){
+    background-color:sandybrown;
+    color:#fff;
+}
+.item:nth-child(even){
+    background-color: steelblue;
+    color:#fff;
+}

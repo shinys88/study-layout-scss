@@ -1,0 +1,23 @@
+@import "_variables.scss";
+
+body {
+  background: $bg;
+  a {
+    color: blue;
+    font-size: $title;
+  }
+
+}
+
+.box{
+  h2{
+    color:#fff;
+  }
+
+  button{
+    color:red;
+    &:hover{
+      background:green;
+    }
+  }
+}

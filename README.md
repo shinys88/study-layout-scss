@@ -74,9 +74,9 @@ flex, grid, scss
 - [x] Variables
 - [x] Nesting
 - [x] Partials
-- [ ] Mixins
-- [ ] Extend
-- [ ] Respnsive
+- [x] Mixins
+- [x] Extend
+- [x] Respnsive
 
 
 ## To Clone:

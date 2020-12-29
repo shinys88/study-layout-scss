@@ -1,0 +1,34 @@
+@mixin link($word) {
+    
+    background:red;
+    @if $word == "odd" {
+        color:blue;        
+    }@else{
+        color:white;
+    }
+}
+
+
+$tv_min:801px;
+
+@mixin responsive($device) {
+    
+    @if $device == "iphone" {
+        @media screen and (min-width:400px) and (max-width:600px) {
+            @content;
+        }
+    }@else if $device == "ipad" {
+        @media screen and (min-width:601px) and (max-width:800px) {
+            @content;
+        }
+    }@else if $device == "tv-l" {
+        @media screen and (min-width:$tv_min) and (orientation:landscape) {
+            @content;
+        }
+    }@else{
+        @media screen and (min-width:$tv_min) {
+            @content;
+        }
+    }
+
+}

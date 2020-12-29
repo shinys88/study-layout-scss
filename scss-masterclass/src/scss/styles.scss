@@ -1,4 +1,6 @@
 @import "_variables.scss";
+@import "_mixins.scss";
+@import "_buttons.scss";
 
 body {
   background: $bg;
@@ -15,9 +17,38 @@ body {
   }
 
   button{
-    color:red;
+    @include link('odd');
     &:hover{
       background:green;
     }
   }
+}
+
+button{
+  @include link('ddd');
+}
+
+span{
+  @extend %buttons;
+}
+
+.mc{
+
+  background-color: orange;
+  width:100%;
+  height:300px;
+
+  @include responsive("iphone"){
+    color:orangered;
+  }
+  @include responsive("ipad"){
+    color:blue;
+  }
+  @include responsive("tv"){
+    color:purple;
+  }
+  @include responsive("tv-l"){
+    color:seagreen;
+  }
+
 }
